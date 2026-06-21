@@ -23,42 +23,8 @@ interface Project {
 }
 
 const projects: Project[] = [
-  {
+   {
   id: 1,
-  title: 'Resume Parser & AI Job Matching',
-  description: 'Intelligent resume parsing system with AI-powered job recommendation engine',
-  features: [
-    'AI Resume Parsing',
-    'Candidate Search',
-    'Skill Matching',
-    'Job Recommendation Engine',
-    'MongoDB Integration',
-  ],
-  techStack: ['Java', 'Spring Boot', 'MongoDB', 'AI/ML', 'React'],
-  gradient: 'from-primary-600 via-violet-600 to-primary-700',
-  icon: Search,
-  github: 'https://github.com/siri9876/Resume-Parser-AI-Job-Matching',
-  live: 'https://resume-parser-ai-job-matching.vercel.app/',
-},
-  {
-  id: 2,
-  title: 'Code Studio ATS',
-  description: 'Applicant Tracking System with JWT authentication and role-based access control',
-  features: [
-    'JWT Authentication',
-    'Role Based Access Control',
-    'Protected Routes',
-    'Admin Dashboard',
-    'Secure Authorization',
-  ],
-  techStack: ['React', 'Node.js', 'Express.js', 'JWT', 'MongoDB'],
-  gradient: 'from-cyan-600 via-teal-600 to-emerald-700',
-  icon: Shield,
-  github: 'https://github.com/siri9876/-Authentication-Role-Based-Access',
-  live: 'https://authentication-role-based-access.vercel.app',
-},
-  {
-  id: 3,
   title: 'E-Commerce Website',
   description: 'Full-featured e-commerce platform with comprehensive shopping experience',
   features: [
@@ -74,6 +40,42 @@ const projects: Project[] = [
   github: 'https://github.com/siri9876/Ecommerce-Website',
   live: 'https://ecommerce-website-ten-steel.vercel.app/',
 },
+  
+  {
+  id: 2,
+  title: 'Resume Parser & AI Job Matching',
+  description: 'Intelligent resume parsing system with AI-powered job recommendation engine',
+  features: [
+    'AI Resume Parsing',
+    'Candidate Search',
+    'Skill Matching',
+    'Job Recommendation Engine',
+    'MongoDB Integration',
+  ],
+  techStack: ['Java', 'Spring Boot', 'MongoDB', 'AI/ML', 'React'],
+  gradient: 'from-primary-600 via-violet-600 to-primary-700',
+  icon: Search,
+  github: 'https://github.com/siri9876/resume--parser',
+  live: 'https://resume-parser-chi.vercel.app/',
+},
+  {
+  id: 3,
+  title: 'Code Studio ATS',
+  description: 'Applicant Tracking System with JWT authentication and role-based access control',
+  features: [
+    'JWT Authentication',
+    'Role Based Access Control',
+    'Protected Routes',
+    'Admin Dashboard',
+    'Secure Authorization',
+  ],
+  techStack: ['React', 'Node.js', 'Express.js', 'JWT', 'MongoDB'],
+  gradient: 'from-cyan-600 via-teal-600 to-emerald-700',
+  icon: Shield,
+  github: 'https://github.com/siri9876/-Authentication-Role-Based-Access',
+  live: 'https://authentication-role-based-access.vercel.app',
+},
+  
 ];
 
 function FeatureItem({ feature, index }: { feature: string; index: number }) {
