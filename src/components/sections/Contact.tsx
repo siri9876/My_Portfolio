@@ -28,8 +28,8 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+91 8919236609',
-    href: 'tel:+918919236609',
+    value: '+91 89xxxxxx09',
+    href: 'tel:+9189xxxxxx09',
     color: 'from-cyan-500 to-teal-600',
   },
   {
